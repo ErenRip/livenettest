@@ -1,0 +1,41 @@
+
+
+body{
+    background-color: #ecf0f1;
+    color: #3498db; 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: Bold;
+       
+}
+
+
+.hakkimda{
+    text-align:left;
+    
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s ease;
+  }
+  
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+@keyframes butonAnimasyonu {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animasyonlu-buton {
+    animation: butonAnimasyonu 1s infinite; /* Saniye cinsinden animasyon süresi ve sonsuz döngü */
+}
