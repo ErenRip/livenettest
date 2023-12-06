@@ -1,5 +1,4 @@
 
-
 body{
     background-color: #ecf0f1;
     color: #3498db; 
@@ -35,7 +34,52 @@ body{
         transform: scale(1);
     }
 }
+.navbar-custom li {
+    margin-right: 10px; /* İstediğiniz boşluk miktarını ayarlayın */
+  }
 
 .animasyonlu-buton {
     animation: butonAnimasyonu 1s infinite; /* Saniye cinsinden animasyon süresi ve sonsuz döngü */
+}
+
+.iframe-container {
+    display: center;
+    justify-content: center;
+    align-items: center;
+     
+    
+    /* Ekran yüksekliği kadar yapmak için */
+}
+
+.lists-container {
+    display: flex; /* İçerdiği öğeleri yatay hizalar */
+}
+
+ul {
+    
+    margin: 0 10px; /* Her liste arasına boşluk bırakır */
+}
+
+li {
+    margin-bottom: 5px; /* İhtiyacınıza göre öğeler arasına bir dikey boşluk bırakabilirsiniz */
+}
+
+.cyann{
+    color: cyan;
+}
+
+.yesil{
+    color: green;
+}
+
+.kirmizi{
+    color: red;
+}
+
+.listeecolor{
+    color: rgb(107, 7, 105);
+}
+
+.listenoktakaldirma{
+    list-style-type: none;
 }
