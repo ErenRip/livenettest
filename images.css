@@ -1,0 +1,21 @@
+.img1{
+    float: left;
+}
+
+.paparatext{
+    font-size: 25px;
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+.dci{
+    padding: 30;
+    margin: 100;
+}
+
+.dcit{
+    padding: 30;
+    margin: 100;
+    font-size: 35px;
+}
