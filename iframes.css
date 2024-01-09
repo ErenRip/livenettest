@@ -1,0 +1,10 @@
+.iframe-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* İfraemleri içeride güzelce sıralamak için biraz boşluk ekliyoruz */
+.iframe-container iframe {
+    margin-bottom: 20px;
+}
